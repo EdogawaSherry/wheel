@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.demo {
+			width: 320px;
+			height: 40px;
+			border: 1px solid #ccc;
+			margin: 50px;
+			box-sizing: border-box;
+			/*padding: 0;*/
+		}
+	</style>
+</head>
+<body>
+	<p class="demo" id="J-demo"></p>
+	<p class="demo" id="J-demo2"></p>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/city.js"></script>
+	<script>
+		var ylc = yeluochenCity('J-demo', (city) => {console.log(city)}, null);
+		console.log(ylc);
+		var ylc2 = yeluochenCity('J-demo2', (city) => {console.log(city)}, {
+			province: '四川',
+			city: '成都',
+			district: '成化区'
+		});
+		console.log(ylc2);
+	</script>
+</body>
+</html>
