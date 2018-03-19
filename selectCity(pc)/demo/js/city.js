@@ -1028,6 +1028,12 @@ const Province = [
         ]
     }
 ];
+/**
+ * @param { String } id 必传 实例化的时候传入需要绑定地区选择的元素id
+ * @param { Function } callBack 必传 回调 返回选择的城市对象 {province, city, district}
+ * @param { Object } city 选传 可支持传入城市对象{province: '四川', city: '成都', district: '锦江区'}
+ * @return { Object } {show, hide, destroy} 分别对应显示，隐藏，销毁
+ */
 function yeluochenCity(id, callBack, city) {
     let userCity = {
         province: null,
