@@ -1,0 +1,171 @@
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    padding: 6px 12px;
+    background: transparent;
+    border: 0;
+    border-radius: 4px;
+}
+
+.btn-demo {
+    height: 35px;
+    background-color: #d9534f;
+    border: #d9534f;
+    color: #fff;
+    margin: 20px;
+}
+
+.update-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.update-bg .btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    padding: 6px 12px;
+    background: transparent;
+    border: 0;
+    border-radius: 4px;
+}
+
+.update-bg .clearfix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.update-bg .update-wrapper {
+    position: relative;
+    margin: 50px auto;
+    width: 900px;
+    min-height: 580px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+
+.update-bg .update-wrapper .update-header {
+    padding: 15px;
+    min-height: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.update-bg .update-wrapper .update-header .text {
+    font-size: 18px;
+    font-weight: 500;
+    float: left;
+}
+
+.update-bg .update-wrapper .update-header .close {
+    float: right;
+    padding: 0;
+    font-size: 22px;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: bold;
+    opacity: .2;
+}
+
+.update-bg .update-wrapper .update-main {
+    padding: 15px 30px;
+}
+
+.update-bg .update-wrapper .update-main .update-btn {
+    height: 35px;
+    background-color: #d9534f;
+    border: #d9534f;
+    color: #fff;
+}
+
+.update-bg .update-wrapper .update-main .update-body {
+    margin-top: 15px;
+}
+
+.update-bg .update-wrapper .update-main .update-body .body-left {
+    float: left;
+    width: 620px;
+    height: 360px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.25);
+    background-color: #fcfcfc;
+    overflow: hidden;
+}
+
+.update-bg .update-wrapper .update-main .update-body .body-left .update-img {
+    display: none;
+}
+
+.update-bg .update-wrapper .update-main .update-body .body-right {
+    float: right;
+    width: 180px;
+    height: 180px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.update-bg .update-wrapper .update-main .update-body .body-right .user-header {
+    display: none;
+}
+
+.update-bg .update-wrapper .update-main .operation-wrapper {
+    margin-top: 15px;
+}
+
+.update-bg .update-wrapper .update-main .operation-wrapper .operation-left {
+    float: left;
+    width: 620px;
+}
+
+.update-bg .update-wrapper .update-main .operation-wrapper .operation-left .btn {
+    height: 35px;
+    background-color: #d9534f;
+    border: #d9534f;
+    color: #fff;
+}
+
+.update-bg .update-wrapper .update-main .operation-wrapper .operation-left .left-container {
+    float: left;
+}
+
+.update-bg .update-wrapper .update-main .operation-wrapper .operation-left .left-container .btn {
+    margin-right: 10px;
+}
+
+.update-bg .update-wrapper .update-main .operation-wrapper .operation-left .right-container {
+    float: right;
+}
+
+.update-bg .update-wrapper .update-main .operation-wrapper .operation-left .right-container .btn {
+    margin-left: 10px;
+}
+
+.update-bg .update-wrapper .update-main .operation-wrapper .operation-right {
+    float: right;
+    width: 180px;
+}
+
+.update-bg .update-wrapper .update-main .operation-wrapper .operation-right .btn {
+    width: 100%;
+    height: 35px;
+    background-color: #d9534f;
+    border: #d9534f;
+    color: #fff;
+}
