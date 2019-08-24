@@ -174,5 +174,6 @@
 #### 强调
 * 必须使用`async` `await` 来写点击事件的方法
 * 是`:click="xxx"` 不是 `@click`，不要写`@click`
-* 不要使用 `if (xxx) { submitApi() }`，将错误判断置前
+* 不要使用 `if (xxx) { submitApi() }`
+* 必须将错误判断置前
 
